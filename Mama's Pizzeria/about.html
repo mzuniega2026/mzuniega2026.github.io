@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Mama's Pizzeria</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+        <style>
+            body {
+                background-color: #ffd817;
+            }
+            header {
+                text-align: center;
+                font-size: 65px;
+                font-family: "Pacifico", cursive;
+                color: white;
+                padding: 10px;
+            }
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: #FF3037;
+                border-radius: 35px;
+                display: flex;
+                justify-content: space-between;
+                width: 100%;
+                outline-style: solid;
+                outline-color: #B30006;
+                outline-width: 5px;
+            }
+            li {
+                float: left;
+            }
+            li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 10px 180px;
+                text-decoration: none;
+                font-family: "Nerko One", cursive;
+                font-size: 30px;
+            }
+            li a:hover:not(.active) {
+                background-color: #14FF9B;
+            }
+            #active {
+                background-color: #30B37B;
+            }
+            #section {
+                background-color: #FF3037;
+                outline-style: solid;
+                outline-color: #B30006;
+                outline-width: 5px;
+                border-radius: 35px;
+                margin-top: 15px;
+            }
+            #tables {
+                display: block;
+                width: 80%;
+                height: 450px;
+                margin-left: auto;
+                margin-right: auto;
+                padding-top: 10px;
+                border-radius: 35px;
+            }
+            table {
+                color: white;
+                font-size: 25px;
+                font-family: "Nerko One", cursive;
+                text-align: center;
+                width: 100%;
+            }
+            footer {
+                text-align: center;
+                font-size: 20px;
+                font-family: "Nerko One", cursive;
+                color: white;
+                background-color: #FF3037;
+                outline-style: solid;
+                outline-color: #B30006;
+                outline-width: 5px;
+                border-radius: 35px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>Welcome to Mama's Pizzeria</header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a id="active" href="about.html">About</a></li>
+            </ul>
+        </nav>
+        <div id="section">
+            <img id="tables" src="tables.jpg" alt="tables">
+            <table>
+                <tr>
+                    <td style="font-size: 55px;">Operating Hours</td>
+                </tr>
+                <tr>
+                    <td>Monday 9:00-18:00</td>
+                </tr>
+                <tr>
+                    <td>Tuesday 9:00-18:00</td>
+                </tr>
+                <tr>
+                    <td>Wednesday 9:00-20:00</td>
+                </tr>
+                <tr>
+                    <td>Thursday 9:00-20:00</td>
+                </tr>
+                <tr>
+                    <td>Friday 9:00-14:00</td>
+                </tr>
+                <tr>
+                    <td>Weekends - Closed</td>
+                </tr>
+                <tr>
+                    <td style="font-size: 55px;">Where to find us?</td>
+                </tr>
+                <tr>
+                    <td>87000 Anywhere Avenue 123, Somewhere City</td>
+                <tr>
+                    <td style="font-size: 55px;">Contact Number</td>
+                </tr>
+                <tr>
+                    <td>3733252-4114551</td>
+                </tr>
+                <tr>
+                    <td style="font-size: 55px;">See you soon!</td>
+                </tr>
+            </table>
+        </div>
+        <footer>
+            <p>Copyright &copy; 2022 | Mama's Pizzeria</p>
+            <p><em>All media used were taken from Pexels and Mixkit.</em></p>
+        </footer>
+    </body>
+</html>
